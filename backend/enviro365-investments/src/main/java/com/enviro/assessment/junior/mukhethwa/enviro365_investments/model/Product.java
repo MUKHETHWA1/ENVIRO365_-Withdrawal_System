@@ -21,7 +21,7 @@ public class Product {
     @Column(nullable = false)
     private String type;
     
-    @Column(nullable = false, precision = 19, scale = 2)
+    @Column(name = "\"value\"", nullable = false, precision = 19, scale = 2)
     private BigDecimal value;
     
     @ManyToOne
