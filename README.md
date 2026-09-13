@@ -222,3 +222,18 @@ This project was developed with the assistance of AI tools as part of the assess
 - Code structure & best practices — Guidance on Spring Boot package layout, DTO patterns, and layered architecture
 - Exception handling patterns — Global exception handler design with @RestControllerAdvice
 - Testing strategies — Unit test structure with Mockito, integration tests with MockMvc
+
+
+---
+## Sample Test Data
+The system loads the following sample data on startup via DataLoader
+| Investor | Age | Email | Portfolios |
+|------------|---------|---------|---------|
+| Mukhethwa Magadani | 71 | Mukhethwa.magadani@magadaniltd.com | Retirement Fund, Taxable Account |
+| Atshilaho Magadani | 46 | atshilaho.magadani@magadaniltd.com | Growth Portfolio |
+
+| Portfolio | Type | Balance | Owner |
+|------------|---------|---------|---------|
+| Retirement Fund | Retirement | R150 000 | Mukhethwa Magadani |
+| Taxable Account | Taxable | R75 000 | Mukhethwa Magadani |
+| Growth Portfolio | Taxable | R200 000 | Atshilaho Magadani |
